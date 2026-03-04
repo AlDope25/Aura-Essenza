@@ -1,0 +1,38 @@
+/* Importazione Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root {
+    --bg-color: #fdfdfd;
+    --text-dark: #333;
+    --primary-color: #c5a059;
+    --accent-color: #1a2a3a;
+    --success-color: #2d6a4f;
+}
+
+body { font-family: 'Montserrat', sans-serif; background-color: var(--bg-color); color: var(--text-dark); }
+
+/* --- LOGO E NAVBAR --- */
+.navbar { background-color: var(--accent-color) !important; padding: 5px 0 !important; min-height: 130px; }
+.navbar-logo { height: 120px !important; width: auto !important; display: block !important; max-width: 100% !important; }
+
+/* Badge generali */
+.badge { font-size: 0.75rem !important; padding: 0.4em 0.6em !important; font-weight: 500 !important; }
+
+/* --- CLASSI BADGE RUOLI --- */
+.badge-admin { background-color: #c5a059 !important; color: white !important; }
+.badge-magazziniere { background-color: #6c757d !important; color: white !important; }
+.badge-qualita { background-color: #dc3545 !important; color: white !important; }
+.badge-esperto { background-color: #2d6a4f !important; color: white !important; }
+
+/* --- CLASSI BADGE FAMIGLIE OLFATTIVE --- */
+.badge-fiorita { background-color: #f7a8b8 !important; color: #581845 !important; }
+.badge-legnosa { background-color: #8d6e63 !important; color: white !important; }
+.badge-orientale { background-color: #d4a373 !important; color: white !important; }
+.badge-fresca { background-color: #a8dadc !important; color: #1d3557 !important; }
+
+/* --- PULSANTI E COMPONENTI --- */
+.btn-gestione { background-color: var(--success-color) !important; color: #ffffff !important; border: none !important; padding: 10px 25px; border-radius: 8px !important; transition: 0.3s ease; font-weight: 600; }
+.btn-modifica { background-color: #ffc107 !important; color: #000 !important; }
+.btn-ok { background-color: #2d6a4f !important; color: #fff !important; display: none; }
+.card { border: none !important; border-radius: 15px !important; box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important; }
+.table { background-color: #fff; border-radius: 8px; overflow: hidden; }
